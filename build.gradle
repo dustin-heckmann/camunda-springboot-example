@@ -22,6 +22,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// Camunda
+	implementation 'org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter-webapp:7.17.0'
+	implementation("com.h2database:h2:2.1.214")
 }
 
 tasks.named('test') {
