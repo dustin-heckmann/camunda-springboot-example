@@ -2,3 +2,6 @@ camunda.bpm:
   admin-user:
     id: admin
     password: admin
+  generic-properties:
+    properties:
+      initialize-telemetry: false # disables "Telemetry Settings" popup
